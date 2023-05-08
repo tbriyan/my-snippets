@@ -1,0 +1,42 @@
+{
+    "Print message in console" : {
+        "prefix" : "cl",
+        "body" : [
+            "console.log(${1:valor})"
+        ],
+        "description" : "This is a snipped of structure"
+    },
+    "Basic component structure" : {
+        "prefix" : "nextComponent",
+        "body" : [
+			"import React from 'react'",
+			"",
+            "function ${1:NameComponent}(){",
+            "   return (",
+            "       <${2}>",
+			"           ${3}",
+            "       </${2}>",
+            "   )",
+            "}",
+            "",
+            "export default $1"
+        ],
+        "description" : "Create a basic component on React"
+    },
+	"Use Effect" : {
+		"prefix" : "nextEffect",
+        "body" : [
+			"useEffect(() => {",
+			"    console.log(${1})",
+			"},[${1:value}])"
+        ],
+        "description" : "Create a useEffect of React"
+	},
+    "Use State" : {
+        "prefix" : "nextuseState",
+        "body" : [
+            "const [${1:state}, set${1}] = useState<${2:type}>(${4:value})"
+        ],
+        "description" : "Create a useState of react"
+    }
+}
