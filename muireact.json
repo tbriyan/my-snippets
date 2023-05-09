@@ -5,10 +5,10 @@
             "<Grid container spacing={${1}} mb={${0}}>",
 			"    <Grid item xl={6} lg={${2}} md={${3}} sm={${4}} xs={${5}}>",
 			"        Column 1",
-			"    <Grid>",
+			"    </Grid>",
 			"    <Grid item xl={6} lg={${2}} md={${3}} sm={${4}} xs={${5}}>",
 			"        Column 1",
-			"    <Grid>",
+			"    </Grid>",
             "</Grid>"
         ],
         "description": "Generate two columns using Mui"
@@ -19,13 +19,13 @@
             "<Grid container spacing={${1}} mb={${0}}>",
 			"    <Grid item xl={4} lg={${2}} md={${3}} sm={${4}} xs={${5}}>",
 			"        Column 1",
-			"    <Grid>",
+			"    </Grid>",
 			"    <Grid item xl={4} lg={${2}} md={${3}} sm={${4}} xs={${5}}>",
 			"        Column 2",
-			"    <Grid>",
+			"    </Grid>",
             "    <Grid item xl={4} lg={${2}} md={${3}} sm={${4}} xs={${5}}>",
 			"        Column 1",
-			"    <Grid>",
+			"    </Grid>",
             "</Grid>"
         ],
         "description": "Generate three columns using Mui"
